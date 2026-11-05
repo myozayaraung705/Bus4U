@@ -4,13 +4,6 @@ A lightweight, and **web application(using serverless architecture)** designed t
 
 Live Demo: [https://myozayaraung705.github.io/Bus4U/]
 
-The interface uses a green-and-white, map-first layout with a desktop trip panel and an expandable mobile bottom sheet. Search destinations in English or Burmese, use popular destination shortcuts, or browse all YBS routes.
-
-On desktop and tablet, use the chevron tab on the trip panel's right edge to minimize or reopen it. The panel slides away without resetting your search or journey; reduced-motion preferences are respected.
-
-On phones, hold the sheet's top handle and drag down to close it, or drag up to reopen or expand it. The sheet follows your finger and snaps into place on release. A “Plan a trip” handle stays visible when closed. Tapping the handle also opens/closes the sheet, and keyboard users can use the arrow keys, Home, and End. Searches and journeys are retained.
-
-For a local preview, run `python -m http.server 4173` in the project folder and open `http://localhost:4173`. Keep `index.html`, `styles.css`, `sheet-gestures.js`, and `ybs_data.json` together when deploying.
 
 ---
 
